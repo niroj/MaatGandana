@@ -1,4 +1,6 @@
 VotingApp::Application.routes.draw do
+  resources :votes
+
   resources :competitions
 
   devise_for :users
