@@ -1,4 +1,6 @@
 VotingApp::Application.routes.draw do
+  resources :contestants
+
   resources :votes
 
   resources :competitions

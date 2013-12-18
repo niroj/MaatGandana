@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Source url:</strong>
+  <%= @contestant.source_url %>
+</p>
+
+<p>
+  <strong>Source type:</strong>
+  <%= @contestant.source_type %>
+</p>
+
+<%= link_to 'Edit', edit_contestant_path(@contestant) %> |
+<%= link_to 'Back', contestants_path %>
